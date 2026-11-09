@@ -723,7 +723,7 @@ $wrapper_attributes = get_block_wrapper_attributes( $wrapper_data );
                                                 <?php endif; ?>
                                                 <?php if ( $any_date_enabled ) : ?>
                                                 <div class="gslider-post-date-wrapper">
-                                                    <div class="gslider-post-date"><?php echo get_the_date(); ?></div>
+                                                    <div class="gslider-post-date"><?php echo esc_html( get_the_date() ); ?></div>
                                                 </div>
                                                 <?php endif; ?>
                                             </div>
